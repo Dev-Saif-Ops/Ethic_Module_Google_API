@@ -4,7 +4,7 @@ import random
 # Create a CSV file with random data
 rows = 5
 columns = 10
-csv_file = 'local_data.csv'
+csv_file = 'Your_file_name.csv'
 
 with open(csv_file, 'w', newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
