@@ -63,10 +63,10 @@ def copy_data_to_spreadsheet(sheets_service, source_spreadsheet_id, destination_
 
 if __name__ == "__main__":
     # Replace with the path to your credentials file
-    CREDENTIALS_FILE = "/home/hi-tech/ModuleGoogleAPI/credentials/service_credentials.json"
+    CREDENTIALS_FILE = "Put_your_PATH"
 
     # Replace with the ID of the existing spreadsheet you want to copy
-    source_spreadsheet_id = "1t8LvOFqHdCqmRPaavK1rF38ZHBu1IgkS3GsqSYqZ6gY"
+    source_spreadsheet_id = "Put_your_ID"
 
     # Replace with the title of the new spreadsheet
     new_spreadsheet_title = "cp_newsheet"
