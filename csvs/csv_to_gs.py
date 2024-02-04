@@ -38,10 +38,10 @@ def csv_to_google_sheet(csv_file_path, spreadsheet_id, credentials_file):
 
 if __name__ == "__main__":
     # Replace with your actual Google Sheet ID
-    SPREADSHEET_ID = "1t8LvOFqHdCqmRPaavK1rF38ZHBu1IgkS3GsqSYqZ6gY"
+    SPREADSHEET_ID = "Put_Your_ID"
     # Replace with the path to your local CSV file
-    CSV_FILE_PATH = "/home/hi-tech/ModuleGoogleAPI/csvs/Sample-Spreadsheet-50000-rows.csv"
+    CSV_FILE_PATH = "Put_your_PATH"
     # Replace with the path to your credentials file
-    CREDENTIALS_FILE = "/home/hi-tech/ModuleGoogleAPI/credentials/service_credentials.json"
+    CREDENTIALS_FILE = "Put_your_PATH"
 
     csv_to_google_sheet(CSV_FILE_PATH, SPREADSHEET_ID, CREDENTIALS_FILE)
